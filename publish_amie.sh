@@ -5,7 +5,7 @@ if [ -z "$1" ]; then
   echo 'Must have at least one commit from the last publish'
   exit 1
 fi
-lerna -h 1&2> /dev/null
+lerna -h 2>&1 > /dev/null
 if [ "$?" != "0" ]; then
   echo 'Install lerna by: npm i -g lerna'
 fi
