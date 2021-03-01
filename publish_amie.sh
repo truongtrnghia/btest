@@ -18,3 +18,4 @@ else
 fi
 lerna version $1
 lerna publish from-git --registry "$registry"
+echo
