@@ -1,0 +1,23 @@
+{
+  "name": "@btest/amie",
+  "version": "3.0.0",
+  "description": "> TODO: description",
+  "author": "Nghia <trl.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/a.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "gitHead": "e2eea8ff291eb57a274fb123d87b9efdf063db3d"
+}
