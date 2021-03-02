@@ -3,16 +3,24 @@
     "Amie",
     "packages/*"
   ],
-      "publish": {
-      "ignoreChanges": ["ignored-file", "*.log1"],
-      "message": "chore(release): publish",
-      "registry": "https://npm.pkg.github.com"
-    },
+    "command": {
+    "publish": {
+      "registry": "http://localhost:4873"
+    }
+  },
+  "publish": {
+    "ignoreChanges": [
+      "ignored-file",
+      "*.log1"
+    ],
+    "message": "chore(release): publish",
+    "registry": "https://npm.pkg.github.com"
+  },
   "bootstrap": {
     "ignore": "Amie/test.log",
     "npmClientArgs": [
       "--no-package-lock"
     ]
   },
-  "version": "10.0.1"
+  "version": "10.0.4"
 }
