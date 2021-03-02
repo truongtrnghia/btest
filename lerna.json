@@ -3,6 +3,11 @@
     "Amie",
     "packages/*"
   ],
+      "publish": {
+      "ignoreChanges": ["ignored-file", "*.log"],
+      "message": "chore(release): publish",
+      "registry": "https://npm.pkg.github.com"
+    },
   "bootstrap": {
     "ignore": "Amie/test.log",
     "npmClientArgs": [
