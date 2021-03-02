@@ -1,6 +1,6 @@
 {
   "name": "@b-test/amie",
-  "version": "10.0.0",
+  "version": "10.0.3",
   "description": "> TODO: description",
   "author": "Nghia <trl.com>",
   "homepage": "",
@@ -11,7 +11,8 @@
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "lib",
+    "test.log"
   ],
   "publishConfig": {
     "access": "public"

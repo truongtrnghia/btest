@@ -3,5 +3,9 @@
     "Amie",
     "packages/*"
   ],
+  "bootstrap": {
+      "ignore": "Amie/test.log",
+      "npmClientArgs": ["--no-package-lock"]
+    },
   "version": "10.0.0"
 }
