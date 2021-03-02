@@ -3,7 +3,7 @@
     "Amie",
     "packages/*"
   ],
-    "command": {
+  "command": {
     "publish": {
       "registry": "http://localhost:4873"
     }
@@ -22,5 +22,5 @@
       "--no-package-lock"
     ]
   },
-  "version": "10.0.4"
+  "version": "10.0.5"
 }
