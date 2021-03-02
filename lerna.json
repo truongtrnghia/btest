@@ -4,7 +4,7 @@
     "packages/*"
   ],
       "publish": {
-      "ignoreChanges": ["ignored-file", "*.log"],
+      "ignoreChanges": ["ignored-file", "*.log1"],
       "message": "chore(release): publish",
       "registry": "https://npm.pkg.github.com"
     },
