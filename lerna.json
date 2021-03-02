@@ -5,7 +5,7 @@
   ],
   "command": {
     "publish": {
-      "registry": "http://localhost:4873"
+      "registry": "http://localhost:48731"
     }
   },
   "publish": {
