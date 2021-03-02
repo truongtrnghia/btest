@@ -16,7 +16,6 @@ if [ "$?" != "0" ]; then
 else
   echo 'Logged in '
 fi
-npm version $1
-yarn build
-npm publish --registry "$registry"
-echo
+lerna version $1
+lerna publish from-git --registry "$registry"
+echo1
